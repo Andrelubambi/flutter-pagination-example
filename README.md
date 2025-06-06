@@ -1,16 +1,24 @@
-# flutter_application
+# Flutter Pagination Example
 
-A new Flutter project.
+Este projeto demonstra como implementar **paginação manual** em listas grandes no Flutter, evitando travamentos e melhorando a experiência do usuário.
 
-## Getting Started
+## Motivação
 
-This project is a starting point for a Flutter application.
+Já viu aqueles apps que travam do nada? Uma das razões pode ser tentar carregar e exibir listas grandes com muitos elementos ao mesmo tempo.  
+Este exemplo mostra como dividir os dados em páginas e exibir apenas uma parte por vez.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Lista com 100 itens
+- Exibição de 10 itens por página
+- Componente de paginação customizável na parte inferior
+- Troca de página dinâmica com `setState`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [`pagination_flutter`](https://pub.dev/packages/pagination_flutter) — componente para paginação
+
+## Como rodar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Andrelubambi/flutter-pagination-example.git
